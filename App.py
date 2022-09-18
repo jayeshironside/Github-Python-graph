@@ -10,7 +10,7 @@ end_date = datetime.now()
 days = (end_date - start_date).days
 
 # loop for generating 10 random commits
-for i in range(10):
+for i in range(60):
 
     # generate a random number of days between 0 and the total number of days
     days_ago = randint(0, days)
